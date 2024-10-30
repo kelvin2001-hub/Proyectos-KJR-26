@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F4E6D7;
+    font-family: arial, helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    max-width: 90%;
+    margin: 2rem 0;
+    padding: 2.5rem;
+}
+
+.img_receta{
+max-width: 100%;
+}
+.titulo{
+    margin: 1.5rem 0;
+    font-size: 2.5rem;
+}
+
+.contenedor_receta{
+    background-color: #E1D4C6;
+    padding: 2rem;
+}
+.contenedor_receta h2{
+    color: #712e49
+}
+.contenedor_receta h3{
+    color: #712e49
+}
+.contenedor_receta ul li{
+    margin: 6px 10px;
+}
+    .contenedor_ingredientes,
+    .contenedor_instrucciones,
+    .contenedor_nutricion{
+        margin-top: 1rem;
+        padding: 1.5rem;
+    }
+    
+    h2{
+        color: #784738;
+        font-size: 2rem;
+    }
+    .contenedor_instrucciones, .contenedor_nutricion{
+        background-color: #E1D4C6;
+    }
+    .contenedor_ingredientes li, .contenedor_instrucciones li{
+        margin: 6px 10px;
+    }
+
+ol li::marker{
+    color: #784738;
+    font-weight: bolder;
+}
+.contenedor_nutricion{
+    margin: 1rem 0;
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+}
+table td{
+    border-bottom: 1px solid #090200;
+    padding: 10px 0;
+}
+.td_nombre{
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: #787432;
+}
+.td_cantidad{
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: #787432
+}
+@media (max-width: 576px){
+    main{
+        background-color: #2724e2;
+    }
+}
+
+
